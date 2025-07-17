@@ -11,7 +11,7 @@ export const Footer = () => {
         {/* Contact Info */}
         <div className="space-y-1 text-gray-700 text-sm">
           <p><strong>Email:</strong> <a href="mailto:bhukyaupender31@gmail.com" className="text-blue-600 hover:underline">bhukyaupender31@gmail.com</a></p>
-          <p><strong>Contact:</strong> <a href="tel:+919000000000" className="hover:underline">+91 90000 00000</a></p>
+          <p><strong>Contact:</strong> <a href="tel:+919000000000" className="hover:underline">+91 80749 95761</a></p>
         </div>
 
         {/* Buttons and Links */}
@@ -32,7 +32,6 @@ export const Footer = () => {
           >
             <FaLinkedin size={28} />
           </a>
-
           <a
             href="https://github.com/upender-01"
             target="_blank"
