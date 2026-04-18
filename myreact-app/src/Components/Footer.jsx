@@ -10,8 +10,8 @@ export const Footer = () => {
           <a href="https://github.com/upender-01" className="hover:text-lime-400 transition-colors"><FaGithub size={32}/></a>
           <a href="https://www.linkedin.com/in/upender-bhukya-2767472a8/" className="hover:text-lime-400 transition-colors"><FaLinkedin size={32}/></a>
         </div>
-        <p className="text-gray-400">Email: bhukyaupender804@gmail.com [cite: 6]</p>
-        <p className="text-gray-400 mt-2">Contact: +91-8074995761 [cite: 5]</p>
+        <p className="text-gray-400">Email: bhukyaupender804@gmail.com </p>
+        <p className="text-gray-400 mt-2">Contact: +91-8074995761</p>
         <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-500">
           © {new Date().getFullYear()} Upendar.Dev. All rights reserved.
         </div>
