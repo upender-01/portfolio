@@ -1,50 +1,20 @@
-import React from 'react';
+ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import Resume from '../assets/uppiresume.pdf';
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-8 mt-12 border-t border-gray-300">
-      <div className="w-11/12 max-w-4xl mx-auto text-center flex flex-col items-center space-y-4">
-        <h1 className="text-xl font-bold text-gray-800">Bhukya Upendar</h1>
-
-        {/* Contact Info */}
-        <div className="space-y-1 text-gray-700 text-sm">
-          <p><strong>Email:</strong> <a href="mailto:bhukyaupender31@gmail.com" className="text-blue-600 hover:underline">bhukyaupender31@gmail.com</a></p>
-          <p><strong>Contact:</strong> <a href="tel:+919000000000" className="hover:underline">+91 80749 95761</a></p>
+    <footer className="bg-gray-900 text-white py-16">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        <h2 className="text-2xl font-bold mb-6">Bhukya Upendar </h2>
+        <div className="flex justify-center gap-8 mb-8">
+          <a href="https://github.com/upender-01" className="hover:text-lime-400 transition-colors"><FaGithub size={32}/></a>
+          <a href="https://www.linkedin.com/in/upender-bhukya-2767472a8/" className="hover:text-lime-400 transition-colors"><FaLinkedin size={32}/></a>
         </div>
-
-        {/* Buttons and Links */}
-        <div className="flex gap-6 items-center justify-center mt-4">
-          <a
-            href={Resume}
-            download
-            className="px-5 py-2 bg-gray-800 text-white rounded-lg font-semibold hover:bg-lime-500 transition duration-300"
-          >
-            Download CV
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/upender-bhukya-2767472a8/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-600"
-          >
-            <FaLinkedin size={28} />
-          </a>
-          <a
-            href="https://github.com/upender-01"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 hover:text-black"
-          >
-            <FaGithub size={28} />
-          </a>
+        <p className="text-gray-400">Email: bhukyaupender804@gmail.com [cite: 6]</p>
+        <p className="text-gray-400 mt-2">Contact: +91-8074995761 [cite: 5]</p>
+        <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-gray-500">
+          © {new Date().getFullYear()} Upendar.Dev. All rights reserved.
         </div>
-
-        <p className="text-sm text-gray-500 mt-4">
-          © {new Date().getFullYear()} Bhukya Upendar. All rights reserved.
-        </p>
       </div>
     </footer>
   );
