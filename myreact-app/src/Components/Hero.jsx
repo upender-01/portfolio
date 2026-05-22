@@ -1,5 +1,5 @@
  import React from "react";
-import Profile from "../assets/upender.png";
+import Profile from "../assets/Upender_01.png";
 import Resume from "../assets/my_resume-01.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
