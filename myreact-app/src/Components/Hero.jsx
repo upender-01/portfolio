@@ -1,6 +1,6 @@
  import React from "react";
 import Profile from "../assets/Upender_01.png";
-import Resume from "../assets/my_resume-01.pdf";
+import Resume from "../assets/upendar_resume.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
